@@ -25,8 +25,7 @@ class AudioSynthesizer {
         sustain: 1,
         release: 0.3
       },
-      volume: -5,
-      maxPolyphony: 32
+      volume: -5
     }).toDestination();
 
     this.isInitialized = true;
